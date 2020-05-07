@@ -42,7 +42,6 @@ const MainContainer = () =>  {
 
         return (
             <div>
-
                     <div className="main-wrapper">
                         <div className="container pt-100 pb-100 register-confirmation">
                             <div className="form-fields">

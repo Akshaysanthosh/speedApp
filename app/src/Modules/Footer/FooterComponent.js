@@ -32,7 +32,7 @@ const FooterComponent = (props) => {
                 </div>
                 <div className="row pt-2 pb-3">
                     <div className="col-md-12">
-                        <p className="copy-right">© 2020 FreshTrak</p>
+                        <p className="copy-right">©2020 </p>
                     </div>
                 </div>
             </div>

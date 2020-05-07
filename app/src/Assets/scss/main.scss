@@ -844,10 +844,7 @@ body {
 }
 
 
-html {
-    box-sizing: border-boxm;
-    -webkit-font-smoothing: antialiased;
-}
+
 
 * {
     box-sizing: inherit;
@@ -857,24 +854,5 @@ html {
     }
 }
 
-// Center & dribbble
-body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', Arial;
-    background: #CDD9ED;
-    .dribbble {
-        position: fixed;
-        display: block;
-        right: 20px;
-        bottom: 20px;
-        img {
-            display: block;
-            height: 28px;
-        }
-    }
-}
 
 }

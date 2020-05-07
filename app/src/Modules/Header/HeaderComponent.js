@@ -1,9 +1,4 @@
-/**
- * Created by Basil on 04/04/20.
- */
-
 import React, { useEffect, useState } from "react";
-
 import mainLogo from "../../Assets/img/logo.png";
 import navBarIcon from "../../Assets/img/menu.svg";
 import { Link } from "react-router-dom";
@@ -69,24 +64,14 @@ const HeaderComponent = (props) => {
               className="justify-content-end"
             >
               <Nav className="navbar-nav small main-menu align-items-center">
-                <NavDropdown
-                  title="Find Resources"
-                  aria-labelledby="dropdown01"
-                >
-                  <NavDropdown.Item className="dropdown-item" href="#1">
-                    Find Resources
-                  </NavDropdown.Item>
-                </NavDropdown>
+                <Link>
+                    About
+                </Link>
               </Nav>
               <Nav className="navbar-nav small  main-menu align-items-center">
-                <NavDropdown
-                  title="For Food Banks"
-                  aria-labelledby="dropdown01"
-                >
-                  <NavDropdown.Item className="dropdown-item" href="#4">
-                    For Food Banks
-                  </NavDropdown.Item>
-                </NavDropdown>
+                <Link>
+                  Contact
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
